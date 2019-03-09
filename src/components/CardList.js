@@ -4,7 +4,7 @@ import Card from './Card.js';
 const CardList = (props) =>{
     const {photos} = props; 
     let limit = props.limit;
-    if(limit == 0){limit = 10}
+    if(limit === 0){limit = 10}
 /*     const cardArray = photos.map( (user, i) => {
         return <Card
         key={photos[i].id}

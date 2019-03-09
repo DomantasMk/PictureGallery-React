@@ -9,3 +9,6 @@ h1{
     color:lightgreen;
     font-family: 'SEGA LOGO FONT';
 }
+footer{
+    display: none;
+}
