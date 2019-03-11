@@ -37,13 +37,13 @@ class App extends Component{
         })
         return(
             <div className ='tc'>
-                <h1 className='f1'>Photos and Authors showcase</h1>
+                <h1 className='f1-ns f1-l f3-m'>Photos and Authors showcase</h1>
                 
-                
+
                 <SearchBox searchChange={this.OnSearchChange}/>
 
                 <SearchCountBox countChange={this.OnCountChange}/>
-
+ 
                 <Scroll>
                  <CardList photos = {filteredPhotos} limit = {this.state.searchCountField} />
                 </Scroll>
