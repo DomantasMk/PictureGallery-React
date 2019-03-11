@@ -1,6 +1,7 @@
 {
   "name": "roboss",
   "version": "0.1.0",
+  "homepage": "https://domantasmk.github.io/PictureGallery-React/",
   "private": true,
   "dependencies": {
     "react": "^16.8.4",
